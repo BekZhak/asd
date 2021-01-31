@@ -1,0 +1,93 @@
+body {
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://wallpaperboat.com/wp-content/uploads/2019/04/black-hole-001.jpg);
+	color: #fff;
+	font-family:  'Montserrat', sans-serif;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-transform: uppercase;
+    text-align: center;
+    border-bottom: 2px solid white ;
+	margin-top: 100px;
+	font-size: 60px;
+}
+
+p {
+	font-size: 20px;
+	display: block;
+    margin-left:100px;;
+	width: 80%;
+}
+
+h2 {
+margin-left: 100px;
+}
+
+img{
+    float: right;
+    box-shadow: 3px 3px 5px 6px  rgba(204, 204, 204, 0.24);    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #00000050;
+    text-align: center;
+}
+
+.box h1{
+    cplor: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.box input[type="email"],.box input[type="text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align:center;
+    border: 2px solid whitesmoke;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 23px;
+    transition: 0.25s;
+}
+
+.box input[type="email"]:focus,.box input[type="text"]:focus{
+    width: 280px;
+    border-color: #FFD700;
+}
+
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align:center;
+    border: 2px solid #FFD700;
+    padding: 14px 15px;
+    outline: none;
+    color: white;
+    border-radius: 23px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: #FFD700;
+}
